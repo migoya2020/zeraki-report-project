@@ -19,7 +19,7 @@ constructor( public restApi: RestApiService ) { }
   loadResults() {
     return this.restApi.getEmployees().subscribe((data: {}) => {
       this.Results = data;
-      console.log(data)
+      console.log(this.Results )
     })
   }
 

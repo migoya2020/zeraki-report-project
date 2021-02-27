@@ -10,7 +10,7 @@ import { retry, catchError } from 'rxjs/operators';
 export class RestApiService {
 
 // Define results API
-  apiURL = 'http://localhost:3000';
+  apiURL = 'https://my-json-server.typicode.com/migoya2020/zeraki-report-project';
 
   constructor(private http: HttpClient) { }
 
