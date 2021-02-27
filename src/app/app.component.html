@@ -1,60 +1,304 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
+<div class="container">
+  <nav class="navbar is-spaced is-transparent" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://zeraki.co.ke/">
+        <img src="https://zeraki.co.ke/lp/images/logo.png" width="98" height="45">
       </a>
 
-      <a class="navbar-item">
-        Documentation
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+        School Report
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
+      </div>
 
-        <div class="navbar-dropdown">
+      <div class="navbar-end">
+        <div class="navbar-item">
           <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
+        Contact us
+      </a>
         </div>
       </div>
     </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
+  </nav>
+</div>
+<div class="container" id="report-body">
+  <div class="columns is-centered is-vcentered is-narrow">
+    <div class="column has-text-centered">
+      <div class="logo">
+        <figure class="image">
+          <img src="../assets/Logo.png">
+        </figure>
       </div>
     </div>
   </div>
-</nav>
+  <div class="columns is-centered is-vcentered is-narrow">
+    <div class="column has-text-centered">
+      <div class="title">
+        School Progress Report Card
+
+      </div>
+    </div>
+  </div>
+
+  <div class="columns is-centered is-vcentered ">
+    <div class="column has-text-centered is-9">
+      <div class="columns">
+        <div class="column is-8">
+          Name.
+        </div>
+        <div class="column is-4">
+          Admin.
+
+        </div>
+
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          Exam Name.
+        </div>
+        <div class="column">
+          Class
+
+        </div>
+        <div class="column">
+          Mean Grade
+        </div>
+
+
+      </div>
+
+      <div class="columns is-centered is-vcentered">
+
+        <div class="column has-text-centered">
+          Overal Position
+
+        </div>
+        <div class="column has-text-centered">
+          Out of
+
+        </div>
+        <div class="column has-text-centered">
+          Deviation
+
+        </div>
+
+      </div>
+      <div class="columns is-centered is-vcentered">
+
+        <div class="column has-text-centered">
+          Stream Position
+
+        </div>
+        <div class="column has-text-centered">
+          Out of
+
+        </div>
+        <div class="column has-text-centered">
+          Deviation
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="column has-text-centered is-3">
+      <div class="student-photo">
+        <figure class="image is-128x128">
+          <img src="https://bulma.io/images/placeholders/256x256.png">
+        </figure>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- <div class="columns columns is-centered is-vcentered">
+    <div class="column has-text-centered">
+      <div class="title">
+        Mean marks
+      </div>
+
+    </div>
+  </div> -->
+  <div class="columns columns is-vcentered">
+    <div class="column is-9 has-text-centered">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div class="title">
+            <h1>Mean marks:</h1>
+          </div>
+
+        </div>
+        <div class="column has-text-centered">
+          <div class="">
+            Deviation
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div class="">
+            Average Score
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="column is-3">
+    </div>
+
+
+
+  </div>
+  <table class="table  is-hoverable is-bordered">
+    <thead>
+      <tr>
+        <th> No</th>
+        <th>Subject Name</th>
+        <th>Grade</th>
+        <th>Score</th>
+        <th>Rank</th>
+        <th>Out of</th>
+        <th>deviation</th>
+        <th>Comments</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td>38</td>
+        <td>38</td>
+        <td>38</td>
+        <td>38</td>
+        <td>38</td>
+        <td>38</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>25</td>
+        <td>38</td>
+        <td>20</td>
+        <td>11</td>
+        <td>7</td>
+        <td>7</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+      </tr>
+      <tr>
+        <th>3</th>
+        <td> 52</td>
+        <td>38</td>
+        <td>19</td>
+        <td>13</td>
+        <td>6</td>
+        <td>69</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+
+      </tr>
+      <tr class="">
+        <th>4</th>
+        <td> 52</td>
+        <td>38</td>
+        <td>19</td>
+        <td>9</td>
+        <td>10</td>
+        <td>7</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+
+      </tr>
+      <tr>
+        <th>5</th>
+        <td>38</td>
+        <td>38</td>
+        <td>19</td>
+        <td>9</td>
+        <td>10</td>
+        <td>49</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+
+      </tr>
+      <tr>
+        <th>6</th>
+        <td>38</td>
+        <td>38</td>
+        <td>18</td>
+        <td>9</td>
+        <td>11</td>
+        <td>59</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+
+      </tr>
+      <tr>
+        <th>7</th>
+        <td>38</td>
+        <td>38</td>
+        <td>16</td>
+        <td>14</td>
+        <td>8</td>
+        <td>65</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+      </tr>
+      <tr>
+        <th>8</th>
+        <td>38</td>
+        <td>38</td>
+        <td>16</td>
+        <td>12</td>
+        <td>10</td>
+        <td>63</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+      </tr>
+      <tr>
+        <th>9</th>
+        <td>38</td>
+        <td>38</td>
+        <td>14</td>
+        <td>9</td>
+        <td>15</td>
+        <td>41</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+      </tr>
+      <tr>
+        <th>10</th>
+        <td>38</td>
+        <td>38</td>
+        <td>12</td>
+        <td>14</td>
+        <td>12</td>
+        <td>59</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+      </tr>
+      <tr>
+        <th>11</th>
+        <td>38</td>
+        <td>38</td>
+        <td>11</td>
+        <td>14</td>
+        <td>13</td>
+        <td>59</td>
+        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+
+      </tr>
+
+    </tbody>
+  </table>
+
+</div>
+<app-table></app-table>
