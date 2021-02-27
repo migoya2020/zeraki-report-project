@@ -8,7 +8,7 @@ import { RestApiService } from "./shared/rest-api.service";
 })
 export class AppComponent {
   title = 'zeraki-report-project';
- Results = {}
+ Results:any[] = []
 
 constructor( public restApi: RestApiService ) { }
 
@@ -17,7 +17,7 @@ constructor( public restApi: RestApiService ) { }
   }
  // Get employees list
   loadResults() {
-    return this.restApi.getEmployees().subscribe((data: {}) => {
+    return this.restApi.getEmployees().subscribe((data: []) => {
       this.Results = data;
       console.log(this.Results )
     })

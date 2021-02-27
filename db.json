@@ -1,5 +1,5 @@
 {
-"results":
+"results":[
 {
 	"student_name": "Ofelia Mckay",
 	"student_admission_number": "234234",
@@ -150,5 +150,5 @@
 			"avg_score": 59.1
 		}
 	]
-}
+}]
 }

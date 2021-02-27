@@ -22,8 +22,8 @@ export class RestApiService {
   }
 
   // HttpClient API get() method => Fetch employees list
-  getEmployees(): Observable<any> {
-    return this.http.get<any>(this.apiURL + '/results')
+  getEmployees(): Observable<any[]> {
+    return this.http.get<any[]>(this.apiURL + '/results')
     .pipe(
       retry(1),
       catchError(this.handleError)
