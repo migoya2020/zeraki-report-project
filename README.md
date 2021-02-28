@@ -4,6 +4,10 @@
 
 Please feel free to leave a comment
 
+![alt text](https://github.com/migoya2020/zeraki-report-project/blob/master/ZerakiReportProject.png?raw=true)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
