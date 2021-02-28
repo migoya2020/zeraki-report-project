@@ -1,6 +1,6 @@
 # ZerakiReportProject
 
-# Deployed on Heroku at https://zeraki-report-project.herokuapp.com/
+## Deployed on Heroku at https://zeraki-report-project.herokuapp.com/
 
 Please feel free to leave a comment
 
