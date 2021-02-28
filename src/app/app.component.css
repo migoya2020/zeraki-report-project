@@ -14,7 +14,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 220px;
-  height: 220px;
 }
 
 table {
@@ -22,4 +21,64 @@ table {
   margin-left: auto;
   margin-right: auto;
   background-color: #F7EC98
+}
+.sub-title {
+    color: #363636;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.comments-sec >.columns{
+
+/* border: #363636;
+border-style: solid; */
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+#report-body{
+padding-bottom: 3rem;
+margin-bottom: 3rem;
+}
+.navbar-item img {
+    max-height: 48px !important;
+    height: 46px !important;
+}
+.inner-label{
+font-family: "Avenir-Book";
+font-size: 20px;
+font-weight: 600;
+color: #363636;
+}
+.inner-label>.report{
+font-size: 20px;
+font-weight: 500;
+color: #2b2828;
+}
+.report{
+font-family: "Avenir-Book";
+font-size: 20px;
+font-weight: 500;
+color: #2b2828;
+}
+
+.profile, .mean-marks, .previous,.overtime, .comments-footer{
+
+border: 1px solid #dbdbdb
+}
+.column{
+/* border-bottom: 1px solid #dbdbdb */
+}
+.right-border{
+border-right: 2px solid #dbdbdb
+
+}
+.top-border{
+border-top: 2px solid #dbdbdb
+
+}
+.onhover:hover{
+background-color: #ffffff;
+}
+
+th{
+font-size: 18px;
 }

@@ -17,7 +17,7 @@ constructor( public restApi: RestApiService ) { }
   }
  // Get employees list
   loadResults() {
-    return this.restApi.getEmployees().subscribe((data: []) => {
+    return this.restApi.getEmployees().subscribe((data) => {
       this.Results = data;
       console.log(this.Results )
     })
